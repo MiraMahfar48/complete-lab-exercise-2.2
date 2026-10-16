@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab Exercise 2.1 HTML Part B</title>
+    </head>
+    <body>
+        <h1>LAB EXERCISE 2.1 HTML PART B</h1>
+        <form action="submit_form.php" method="post">
+            <label>Name: </label>
+            <input type="text" name="name"><br><br>
+            <label>Password : </label>
+            <input type="password" name="password"><br><br>
+
+            <label>Gender: </label>
+            <input type="radio" name="gender" value="Male"> Male <br>
+            <input type="radio" name="gender" value="Female"> Female <br>
+            <input type="radio" name="gender" value="Other">Other <br><br>
+
+            <label>Age :</label>
+            <select name="age">
+                <option value="" selected disabled>Select Age</option>
+                <option value="Under 18"> Under 18</option>
+                <option value="18 - 24">18 - 25</option>
+                <option value="25 - 35">25 - 35</option>
+                <option value="36 and above">36 and above</option>
+            </select> <br><br>
+
+            <label>Interest: </label><br>
+            <textarea name="interests" rows="4" cols="40"></textarea><br><br>
+
+            <label>Subscribe to Newsletter:</label>
+            <input type="checkbox" name="newsletter" value="Yes"> Yes
+            <input type="checkbox" name="newsletter" value="No"> No
+            <input type="checkbox" name="newsletter" value="Not Interested"> No Interested <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
